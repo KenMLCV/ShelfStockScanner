@@ -76,17 +76,20 @@ ShelfStockScanner consists of the following major components:
 
 ### Configuration <a name="configuration"></a>
 
-Before running the ShelfStockScanner, you need to configure it by editing the `config.json` file. Here's an example configuration:
+Before running the ShelfStockScanner, you need to configure it by editing the `CONFIG.py` file. Here's an example configuration:
 
-```json
-{
-   "google_api_key": "your_google_api_key",
-   "gcp_project_id": "your_gcp_project_id",
-   "gcp_bucket_name": "your_gcp_bucket_name",
-   "model_path": "path_to_pretrained_model",
-   "output_directory": "output_folder",
-   "image_search_api_key": "your_google_image_search_api_key",
-   "image_search_cx": "your_google_image_search_cx"
+```
+gis = {
+    "api_key": "",
+    "project_id": "",
+}
+
+gcp = {
+    "conn": "",
+    "user": "",
+    "password": "",
+    "driver": "",
+    "db": ""
 }
 ```
 
