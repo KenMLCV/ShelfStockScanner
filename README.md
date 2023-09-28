@@ -116,10 +116,6 @@ You can view the results in the output directory specified in the configuration 
 
 Contributions to ShelfStockScanner are welcome! Feel free to fork the repository, make improvements, and submit pull requests. Be sure to follow the project's coding and documentation guidelines.
 
-## 6. License <a name="license"></a>
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Thank you for using ShelfStockScanner! If you have any questions or encounter any issues, please refer to the GitHub repository's issue tracker or reach out to the project maintainers. Happy scanning!
