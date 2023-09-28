@@ -103,7 +103,7 @@ Make sure to replace the placeholders with your actual API keys and paths.
 To run the ShelfStockScanner, execute the following command:
 
 ```bash
-python shelf_stock_scanner.py
+python GCP_SIM.py
 ```
 
 The scanner will capture images, process them, recognize items, and store the results in the specified output directory.
