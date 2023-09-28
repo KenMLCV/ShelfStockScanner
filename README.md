@@ -79,11 +79,14 @@ ShelfStockScanner consists of the following major components:
 Before running the ShelfStockScanner, you need to configure it by editing the `CONFIG.py` file. Here's an example configuration:
 
 ```
+#GOOGLE IMAGE SEARCH KVPs
 gis = {
     "api_key": "",
     "project_id": "",
 }
 
+
+#GOOGLE CLOUD PLATFORM KVPs
 gcp = {
     "conn": "",
     "user": "",
